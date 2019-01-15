@@ -1,0 +1,92 @@
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    border: 0;
+}
+.left{
+    background-color: #a4c4b5;
+}
+
+.dot {
+    height: 14px;
+    width: 14px;
+    background-color: #cdddc3;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dotActive{
+    background-color: #ffffff;
+    border-image-repeat: stretch;
+    border-image-slice: 30;
+}
+
+.carousel-indicators li{
+    height: 14px;
+    width: 14px;
+    background-color: #cdddc3;
+    border-radius: 50%;
+    display: inline-block;
+}
+.carousel-indicators > .active{
+    background-color: #ffffff;
+}
+.sliderImage{
+    width: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;  
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+} 
+ 
+.right {
+    right: 0;
+    background-color: #ffffff;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.mySlide >img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.head{
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 100%;
+}
