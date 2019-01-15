@@ -9,20 +9,6 @@
     background-color: #a4c4b5;
 }
 
-.dot {
-    height: 14px;
-    width: 14px;
-    background-color: #cdddc3;
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-.dotActive{
-    background-color: #ffffff;
-    border-image-repeat: stretch;
-    border-image-slice: 30;
-}
-
 .carousel-indicators li{
     height: 14px;
     width: 14px;
