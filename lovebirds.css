@@ -76,3 +76,17 @@
     position: relative;
     width: 100%;
 }
+.logo{
+    width: 100%;
+    position: relative;
+    margin: 50px 0 ;
+}
+
+.logo img{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
